@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Youssef HMAMA — Portfolio</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="Portfo-Icon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+
+  <!-- Background -->
+  <div class="bg-grid"></div>
+  <div class="bg-glow"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#home" class="logo">Y<span>.</span>HMAMA</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#designs">Designs</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div id="home">
+    <div class="hero-inner">
+
+      <div class="hero-img-bg">
+        <img src="PhotoMe.jpg" class="hero-avatar" alt="Youssef HMAMA" />
+      </div>
+
+      <div class="hero-text">
+        <h1 class="hero-name">Hi, I'm <span>Youssef</span><br>HMAMA</h1>
+        <p class="hero-title">
+          I'm a <span class="typed-text" id="typed"></span><span class="cursor-blink"></span>
+        </p>
+        <p class="hero-desc">
+          Graduate with a DUT in Computer Engineering from EST Oujda. Passionate about web &amp; mobile development,
+          I'm looking to contribute to innovative projects and collaborate with talented professionals.
+        </p>
+
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/hmama-youssef" class="social-btn" target="_blank" rel="noopener" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/yousssef-hm" class="social-btn" target="_blank" rel="noopener" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/yxuss.hm" class="social-btn" target="_blank" rel="noopener" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://twitter.com/Yussuuf_hm" class="social-btn" target="_blank" rel="noopener" title="Twitter / X">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+          <a href="mailto:youssefhmama1@gmail.com" class="social-btn" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+
+        <div class="hero-btns">
+          <a href="#contact" class="btn-primary">Hire Me</a>
+          <a href="HMAMA-Youssef-CV.pdf" class="btn-outline" download>Download My CV</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="reveal">
+      <h2 class="section-title">Who I <span>Am</span></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>My name is Youssef HMAMA, a graduate with a DUT in Computer Engineering from the Ecole Superieure de Technologie d'Oujda. Currently pursuing a Bachelor's degree in Digital Media Development (DMN).</p>
+        <p>Passionate about information technologies, I am always looking for new opportunities to deepen my knowledge and develop my skills, particularly in Web and Mobile development.</p>
+        <p>My goal is to contribute to innovative projects and collaborate with talented professionals.</p>
+        <div class="info-pairs">
+          <div class="info-pair"><strong><i class="fas fa-map-marker-alt"></i></strong><span>Jerada / Oujda, Morocco</span></div>
+          <div class="info-pair"><strong><i class="fas fa-envelope"></i></strong><span>youssefhmama1@gmail.com</span></div>
+          <div class="info-pair"><strong><i class="fas fa-phone"></i></strong><span>06 90 43 85 43</span></div>
+          <div class="info-pair"><strong><i class="fas fa-graduation-cap"></i></strong><span>EST Oujda — DMN</span></div>
+          <div class="info-pair"><strong><i class="fas fa-language"></i></strong><span>FR / EN / AR</span></div>
+          <div class="info-pair"><strong><i class="fas fa-id-card"></i></strong><span>Driver's License (B)</span></div>
+        </div>
+      </div>
+
+      <div class="skills-grid reveal">
+        <div class="skill-item">
+          <div class="skill-header"><span>HTML / CSS</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="90"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header"><span>JavaScript</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="75"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header"><span>React.js</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="70"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header"><span>Angular</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="65"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header"><span>Java / Spring Boot</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="70"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header"><span>Docker / Linux</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="65"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header"><span>SQL / PL-SQL</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="72"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-header"><span>UI/UX Design</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="reveal">
+      <h2 class="section-title">My <span>Work</span></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-icon"><i class="fas fa-calendar-alt"></i></div>
+        <div class="project-title">Event App</div>
+        <div class="project-desc">Fullstack event management application with an Angular frontend and a robust Spring Boot backend.</div>
+        <div class="project-tags">
+          <span class="tag">Angular</span><span class="tag">Spring Boot</span><span class="tag">SQL</span>
+        </div>
+        <a href="https://github.com/mariamjilad99/Event-app" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-icon"><i class="fas fa-file-alt"></i></div>
+        <div class="project-title">CV Editor</div>
+        <div class="project-desc">React web application for creating and editing CVs in an interactive and intuitive way.</div>
+        <div class="project-tags">
+          <span class="tag">React</span><span class="tag">JavaScript</span><span class="tag">HTML/CSS</span>
+        </div>
+        <a href="https://github.com/yousssef-hm/CV-Editor" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-icon"><i class="fas fa-heartbeat"></i></div>
+        <div class="project-title">Calorie &amp; Protein Tracker</div>
+        <div class="project-desc">Nutritional tracking application to calculate and monitor daily calorie and protein intake.</div>
+        <div class="project-tags">
+          <span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span>
+        </div>
+        <a href="https://github.com/yousssef-hm/Calorie-Protein-Tracker" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-icon"><i class="fas fa-university"></i></div>
+        <div class="project-title">DUT+ </div>
+        <div class="project-desc">Platform helping students navigate their options after a DUT degree.</div>
+        <div class="project-tags">
+          <span class="tag">Angular</span><span class="tag">TypeScript</span>
+        </div>
+        <a href="https://github.com/yousssef-hm/dutplus-frontend" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-icon"><i class="fab fa-docker"></i></div>
+        <div class="project-title">Docker Project</div>
+        <div class="project-desc">Application containerization with Docker and Nginx configured as a reverse proxy.</div>
+        <div class="project-tags">
+          <span class="tag">Docker</span><span class="tag">Nginx</span><span class="tag">Linux</span>
+        </div>
+        <a href="https://github.com/yousssef-hm/projet-docker" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+      </div>
+
+      <div class="project-card project-card-placeholder reveal">
+        <div class="project-icon"><i class="fas fa-plus"></i></div>
+        <div class="project-title">More coming soon</div>
+        <div class="project-desc">Projects currently in development...</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESIGNS -->
+  <section id="designs">
+    <div class="reveal">
+      <h2 class="section-title">My <span>Designs</span></h2>
+      <div class="section-line"></div>
+      <p class="section-desc">Some designs created with Figma, Photoshop &amp; Canva ...</p>
+    </div>
+
+    <div class="design-filters reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="uiux">UI/UX</button>
+      <button class="filter-btn" data-filter="graphisme">Graphics</button>
+      <button class="filter-btn" data-filter="social">Social Media</button>
+    </div>
+
+    <div class="designs-grid">
+
+      <div class="design-card reveal" data-category="uiux">
+        <div class="design-img-wrap">
+          <img src="FigmaDesign.png" alt="Design 1" />
+          <div class="design-overlay">
+            <span class="design-view"><i class="fas fa-eye"></i> View</span>
+          </div>
+        </div>
+        <div class="design-info">
+          <div class="design-title">C'ZAM Showroom</div>
+          <div class="design-tags"><span class="tag">Figma</span><span class="tag">UI/UX</span></div>
+        </div>
+      </div>
+
+      <div class="design-card reveal" data-category="graphisme">
+        <div class="design-img-wrap">
+          <img src="IMEX-Logo.png" alt="Design 2" />
+          <div class="design-overlay">
+            <span class="design-view"><i class="fas fa-eye"></i> View</span>
+          </div>
+        </div>
+        <div class="design-info">
+          <div class="design-title">Logo</div>
+          <div class="design-tags"><span class="tag">Photoshop</span><span class="tag">Logo</span></div>
+        </div>
+      </div>
+
+      <div class="design-card reveal" data-category="graphisme">
+        <div class="design-img-wrap">
+          <img src="C’ZAMShowroom-Logo.png" alt="Design 3" />
+          <div class="design-overlay">
+            <span class="design-view"><i class="fas fa-eye"></i> View</span>
+          </div>
+        </div>
+        <div class="design-info">
+          <div class="design-title">Logo</div>
+          <div class="design-tags"><span class="tag">Photoshop</span><span class="tag">Logo</span></div>
+        </div>
+      </div>
+
+      <div class="design-card reveal" data-category="graphisme">
+        <div class="design-img-wrap">
+          <img src="gazilla-Logo.png" alt="Design 4" />
+          <div class="design-overlay">
+            <span class="design-view"><i class="fas fa-eye"></i> View</span>
+          </div>
+        </div>
+        <div class="design-info">
+          <div class="design-title">Logo</div>
+          <div class="design-tags"><span class="tag">Photoshop</span><span class="tag">Logo</span></div>
+        </div>
+      </div>
+
+      <div class="design-card reveal" data-category="graphisme">
+        <div class="design-img-wrap">
+          <img src="nya-Logo.png" alt="Design 5" />
+          <div class="design-overlay">
+            <span class="design-view"><i class="fas fa-eye"></i> View</span>
+          </div>
+        </div>
+        <div class="design-info">
+          <div class="design-title">Logo</div>
+          <div class="design-tags"><span class="tag">Photoshop</span><span class="tag">Logo</span></div>
+        </div>
+      </div>
+
+      <div class="design-card reveal" data-category="social">
+        <div class="design-img-wrap">
+          <img src="Stay-Tuned.png" alt="Design 6" />
+          <div class="design-overlay">
+            <span class="design-view"><i class="fas fa-eye"></i> View</span>
+          </div>
+        </div>
+        <div class="design-info">
+          <div class="design-title">Instagram Post</div>
+          <div class="design-tags"><span class="tag">Canva</span><span class="tag">Social</span></div>
+        </div>
+      </div>
+
+      <div class="design-card reveal" data-category="social">
+        <div class="design-img-wrap">
+          <img src="Cooming-post.png" alt="Design 7" />
+          <div class="design-overlay">
+            <span class="design-view"><i class="fas fa-eye"></i> View</span>
+          </div>
+        </div>
+        <div class="design-info">
+          <div class="design-title">Instagram Post</div>
+          <div class="design-tags"><span class="tag">Canva</span><span class="tag">Social</span></div>
+        </div>
+      </div>
+
+      <div class="design-card reveal" data-category="social">
+        <div class="design-img-wrap">
+          <img src="Promoo-post.png" alt="Design 8" />
+          <div class="design-overlay">
+            <span class="design-view"><i class="fas fa-eye"></i> View</span>
+          </div>
+        </div>
+        <div class="design-info">
+          <div class="design-title">Instagram Post</div>
+          <div class="design-tags"><span class="tag">Canva</span><span class="tag">Social</span></div>
+        </div>
+      </div>
+
+      <div class="design-card reveal" data-category="social">
+        <div class="design-img-wrap">
+          <img src="coursera-Post.png" alt="Design 9" />
+          <div class="design-overlay">
+            <span class="design-view"><i class="fas fa-eye"></i> View</span>
+          </div>
+        </div>
+        <div class="design-info">
+          <div class="design-title">Instagram Post</div>
+          <div class="design-tags"><span class="tag">Canva</span><span class="tag">Social</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE + EDUCATION -->
+  <section id="experience">
+    <div class="reveal">
+      <h2 class="section-title">My <span>Journey</span></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Apr 2025 — Present</div>
+        <div class="timeline-title">Freelance Graphic Designer</div>
+        <div class="timeline-company">Freelance — Oujda, Morocco</div>
+        <ul class="timeline-desc">
+          <li>Visual creation and digital communication</li>
+          <li>Content design for social media and marketing materials</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Apr 2025 — Jun 2025</div>
+        <div class="timeline-title">Final Year Internship — Ticket Management Platform</div>
+        <div class="timeline-company">NOVELIS — Oujda, Morocco</div>
+        <ul class="timeline-desc">
+          <li>Development of a complete ticket management platform</li>
+          <li>Customer support request tracking</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Feb 2025 — Apr 2025</div>
+        <div class="timeline-title">Final Year Project (PFE) — DUT+</div>
+        <div class="timeline-company">EST Oujda</div>
+        <ul class="timeline-desc">
+          <li>Development of DUT+, a post-DUT guidance platform</li>
+          <li>Team collaboration with 3 developers</li>
+          <li>Frontend HTML/CSS/JS + Backend PHP + MySQL</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">Jul 2024 — Aug 2024</div>
+        <div class="timeline-title">Initiation Internship — Fullstack Deployment</div>
+        <div class="timeline-company">NOVELIS — Oujda, Morocco</div>
+        <ul class="timeline-desc">
+          <li>Deploying a fullstack application from GitHub</li>
+          <li>Using Docker for container management</li>
+          <li>Configuring Nginx as a reverse proxy</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Education -->
+    <div class="edu-gap">
+      <div class="reveal">
+        <h2 class="section-title">My <span>Education</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <div class="edu-year">2025 — 2026</div>
+          <div class="edu-degree">Bachelor — Digital Media Development</div>
+          <div class="edu-school">Ecole Superieure de Technologie (EST), Oujda</div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-year">2023 — 2025</div>
+          <div class="edu-degree">DUT — Computer Engineering (DAI)</div>
+          <div class="edu-school">Ecole Superieure de Technologie (EST), Oujda</div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-year">2022 — 2023</div>
+          <div class="edu-degree">1st Year — Economics</div>
+          <div class="edu-school">Faculty of Law, Economics and Social Sciences, Oujda</div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-year">2021 — 2022</div>
+          <div class="edu-degree">High School Diploma — Physical Sciences</div>
+          <div class="edu-school">Lycee Jaber Ibn Hayan, Jerada — Grade: Good</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="reveal">
+      <h2 class="section-title">Get In <span>Touch</span></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="contact-wrap">
+      <div class="contact-info reveal">
+        <p>Have a project in mind, a professional opportunity, or simply want to connect? Feel free to reach out — I'll get back to you as soon as possible.</p>
+        <div class="contact-items">
+          <a href="mailto:youssefhmama1@gmail.com" class="contact-item">
+            <i class="fas fa-envelope"></i> youssefhmama1@gmail.com
+          </a>
+          <a href="tel:0690438543" class="contact-item">
+            <i class="fas fa-phone"></i> 06 90 43 85 43
+          </a>
+          <span class="contact-item">
+            <i class="fas fa-map-marker-alt"></i> Jerada / Oujda, Morocco
+          </span>
+          <a href="https://www.linkedin.com/in/hmama-youssef" target="_blank" rel="noopener" class="contact-item">
+            <i class="fab fa-linkedin-in"></i> Hmama Youssef
+          </a>
+          <a href="https://github.com/yousssef-hm" target="_blank" rel="noopener" class="contact-item">
+            <i class="fab fa-github"></i> yousssef-hm
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" action="https://formspree.io/f/mnjbryyw" method="POST">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" name="nom" placeholder="e.g. Youssef Hmama" required />
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="e.g. contact@example.com" required />
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea name="message" placeholder="Describe your project or opportunity..." required></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-submit" style="cursor:pointer;border:none;width:100%;font-size:1rem;">
+          Send Message →
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Designed &amp; Built by <span>Youssef HMAMA</span> — 2026</p>
+    <p>youssefhmama1@gmail.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
